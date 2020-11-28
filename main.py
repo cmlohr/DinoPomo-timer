@@ -1,4 +1,4 @@
-
+from tkinter import *
 # ---------------------------- CONSTANTS ------------------------------- #
 PINK = "#e2979c"
 RED = "#e7305b"
@@ -8,6 +8,10 @@ FONT_NAME = "Courier"
 WORK_MIN = 25
 SHORT_BREAK_MIN = 5
 LONG_BREAK_MIN = 20
+# GUI setup
+wd = Tk()
+wd.title("My Pomodoro")
+wd.minsize(width=400, height=400)
 
 # ---------------------------- TIMER RESET ------------------------------- # 
 
@@ -16,3 +20,17 @@ LONG_BREAK_MIN = 20
 # ---------------------------- COUNTDOWN MECHANISM ------------------------------- # 
 
 # ---------------------------- UI SETUP ------------------------------- #
+
+
+
+
+
+
+
+
+
+
+
+
+wd.mainloop()
+
