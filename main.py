@@ -74,7 +74,7 @@ wd.config(padx=100, pady=50, bg=BLACK)
 canvas = Canvas(width=640, height=600, bg=BLACK, highlightthickness=0)
 timer_img = PhotoImage(file="dino.png")
 canvas.create_image(320, 300, image=timer_img)
-timer = canvas.create_text(550, 200, text="00:00", fill="white", font=(FONT_NAME, 40, "bold"))
+timer = canvas.create_text(548, 200, text="00:00", fill="white", font=(FONT_NAME, 40, "bold"))
 
 canvas.grid(column=1, row=1)
 heading = Label(text="DinoPomo", fg=GREEN, bg=BLACK, font=(FONT_NAME, 30, "bold"))
